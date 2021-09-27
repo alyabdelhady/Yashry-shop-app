@@ -1,0 +1,35 @@
+.head h2 {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  margin: 20px auto;
+ 
+}
+.head .home-link{
+ text-decoration: none;
+}
+
+.category {
+  display: flex;
+  margin: auto;
+}
+.category .card {
+  width: 60%;
+  height: 92%;
+  cursor: pointer;
+}
+
+.category .card:hover .card-title {
+  color: red;
+}
+.category-link {
+  text-decoration: none;
+  color: black;
+}
+
+.category .card .card-title {
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}

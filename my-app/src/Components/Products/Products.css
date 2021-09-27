@@ -1,0 +1,134 @@
+.products-list .card {
+  width: 80%;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.products-list {
+  margin-top: 30px;
+}
+.products-list .card-body h4 {
+  font-size: 18px;
+}
+.products-list .card-body h5 {
+  font-size: 16px;
+  padding: 5px 0;
+}
+.products-list .card-body h5 span {
+  color: black;
+}
+.products-list .card-body h6 {
+  font-size: 16px;
+  color: rgb(175, 37, 37);
+  padding: 5px 0;
+  font-weight: bold;
+}
+.products-list .price-rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-list .col-lg-4 {
+  border: 2px solid gray;
+  height: 128vh;
+  width: 25%;
+  margin: 0 35px;
+}
+
+.products-list .price-filter {
+  border: 2px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 90%;
+  margin: 40px auto;
+}
+.products-list .price-filter h6,
+.products-list .color-filter h6,
+.products-list .rating-filter h6 {
+  padding: 10px;
+  font-weight: bold;
+  padding: 10px;
+  font-weight: bold;
+}
+.products-list .price-filter .range {
+  padding: 20px;
+}
+
+.products-list .price-part1 {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-list .price-part1 input {
+  width: 40%;
+  outline: none;
+  border: none;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.products-list .price-part2 {
+  padding: 35px;
+}
+
+.products-list .clear-price,
+.products-list .clear-rating {
+  color: white;
+  background-color: rgb(180, 36, 36);
+  width: fit-content;
+  margin: auto;
+  font-weight: bold;
+  padding: 2px 4px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  transition: all 0.5s ease;
+}
+.products-list .clear-price:hover {
+  background-color: rgb(235, 15, 15);
+}
+
+.products-list .clear-rating:hover {
+  background-color: rgb(235, 15, 15);
+}
+
+.products-list .color-filter {
+  border: 2px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  height: 40vh;
+  overflow: scroll;
+  width: 80%;
+  margin: auto;
+}
+.products-list .color-filter input {
+  margin: 0 0 10px 0;
+  outline: none;
+  border: none;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.products-list label {
+  margin: 0 0 10px 5px;
+}
+
+.products-list .rating-filter {
+  border: 2px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 90%;
+  margin: 40px auto;
+}
+.products-list .rating-filter .rate {
+  padding: 0 0 10px 0;
+}
+
+.products-list .rating-filter .rate div {
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.products-list .clear-rating {
+  margin: 10px 0;
+}
